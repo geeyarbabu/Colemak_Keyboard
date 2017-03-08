@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF5E45161E6CA7CD00CC9274 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E45151E6CA7CD00CC9274 /* AppDelegate.swift */; };
+		AF5E45181E6CA7CD00CC9274 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF5E45171E6CA7CD00CC9274 /* ViewController.swift */; };
+		AF5E451B1E6CA7CD00CC9274 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5E45191E6CA7CD00CC9274 /* Main.storyboard */; };
+		AF5E451D1E6CA7CD00CC9274 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF5E451C1E6CA7CD00CC9274 /* Assets.xcassets */; };
+		AF5E45201E6CA7CD00CC9274 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF5E451E1E6CA7CD00CC9274 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF5E45121E6CA7CD00CC9274 /* colemak_keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colemak_keyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5E45151E6CA7CD00CC9274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AF5E45171E6CA7CD00CC9274 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AF5E451A1E6CA7CD00CC9274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AF5E451C1E6CA7CD00CC9274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AF5E451F1E6CA7CD00CC9274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AF5E45211E6CA7CD00CC9274 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF5E450F1E6CA7CD00CC9274 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF5E45091E6CA7CD00CC9274 = {
+			isa = PBXGroup;
+			children = (
+				AF5E45141E6CA7CD00CC9274 /* colemak_keyboard */,
+				AF5E45131E6CA7CD00CC9274 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF5E45131E6CA7CD00CC9274 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF5E45121E6CA7CD00CC9274 /* colemak_keyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF5E45141E6CA7CD00CC9274 /* colemak_keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				AF5E45151E6CA7CD00CC9274 /* AppDelegate.swift */,
+				AF5E45171E6CA7CD00CC9274 /* ViewController.swift */,
+				AF5E45191E6CA7CD00CC9274 /* Main.storyboard */,
+				AF5E451C1E6CA7CD00CC9274 /* Assets.xcassets */,
+				AF5E451E1E6CA7CD00CC9274 /* LaunchScreen.storyboard */,
+				AF5E45211E6CA7CD00CC9274 /* Info.plist */,
+			);
+			path = colemak_keyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF5E45111E6CA7CD00CC9274 /* colemak_keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF5E45241E6CA7CE00CC9274 /* Build configuration list for PBXNativeTarget "colemak_keyboard" */;
+			buildPhases = (
+				AF5E450E1E6CA7CD00CC9274 /* Sources */,
+				AF5E450F1E6CA7CD00CC9274 /* Frameworks */,
+				AF5E45101E6CA7CD00CC9274 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = colemak_keyboard;
+			productName = colemak_keyboard;
+			productReference = AF5E45121E6CA7CD00CC9274 /* colemak_keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF5E450A1E6CA7CD00CC9274 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "karthick mohanasundaram";
+				TargetAttributes = {
+					AF5E45111E6CA7CD00CC9274 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = UJWD7B9P9D;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AF5E450D1E6CA7CD00CC9274 /* Build configuration list for PBXProject "colemak_keyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AF5E45091E6CA7CD00CC9274;
+			productRefGroup = AF5E45131E6CA7CD00CC9274 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF5E45111E6CA7CD00CC9274 /* colemak_keyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF5E45101E6CA7CD00CC9274 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5E45201E6CA7CD00CC9274 /* LaunchScreen.storyboard in Resources */,
+				AF5E451D1E6CA7CD00CC9274 /* Assets.xcassets in Resources */,
+				AF5E451B1E6CA7CD00CC9274 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF5E450E1E6CA7CD00CC9274 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF5E45181E6CA7CD00CC9274 /* ViewController.swift in Sources */,
+				AF5E45161E6CA7CD00CC9274 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF5E45191E6CA7CD00CC9274 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5E451A1E6CA7CD00CC9274 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AF5E451E1E6CA7CD00CC9274 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF5E451F1E6CA7CD00CC9274 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF5E45221E6CA7CD00CC9274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF5E45231E6CA7CD00CC9274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF5E45251E6CA7CE00CC9274 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UJWD7B9P9D;
+				INFOPLIST_FILE = colemak_keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "geeyarbabu-gmail.com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AF5E45261E6CA7CE00CC9274 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UJWD7B9P9D;
+				INFOPLIST_FILE = colemak_keyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "geeyarbabu-gmail.com";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF5E450D1E6CA7CD00CC9274 /* Build configuration list for PBXProject "colemak_keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5E45221E6CA7CD00CC9274 /* Debug */,
+				AF5E45231E6CA7CD00CC9274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF5E45241E6CA7CE00CC9274 /* Build configuration list for PBXNativeTarget "colemak_keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF5E45251E6CA7CE00CC9274 /* Debug */,
+				AF5E45261E6CA7CE00CC9274 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF5E450A1E6CA7CD00CC9274 /* Project object */;
+}
