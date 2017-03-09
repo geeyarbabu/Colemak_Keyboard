@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF5E45121E6CA7CD00CC9274 /* colemak_keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = colemak_keyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF5E45121E6CA7CD00CC9274 /* qwerty_keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qwerty_keyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF5E45151E6CA7CD00CC9274 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF5E45171E6CA7CD00CC9274 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF5E451A1E6CA7CD00CC9274 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		AF5E45091E6CA7CD00CC9274 = {
 			isa = PBXGroup;
 			children = (
-				AF5E45141E6CA7CD00CC9274 /* colemak_keyboard */,
+				AF5E45141E6CA7CD00CC9274 /* qwerty_keyboard */,
 				AF5E45131E6CA7CD00CC9274 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		AF5E45131E6CA7CD00CC9274 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF5E45121E6CA7CD00CC9274 /* colemak_keyboard.app */,
+				AF5E45121E6CA7CD00CC9274 /* qwerty_keyboard.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AF5E45141E6CA7CD00CC9274 /* colemak_keyboard */ = {
+		AF5E45141E6CA7CD00CC9274 /* qwerty_keyboard */ = {
 			isa = PBXGroup;
 			children = (
 				AF5E45151E6CA7CD00CC9274 /* AppDelegate.swift */,
@@ -61,15 +61,16 @@
 				AF5E451E1E6CA7CD00CC9274 /* LaunchScreen.storyboard */,
 				AF5E45211E6CA7CD00CC9274 /* Info.plist */,
 			);
+			name = qwerty_keyboard;
 			path = colemak_keyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AF5E45111E6CA7CD00CC9274 /* colemak_keyboard */ = {
+		AF5E45111E6CA7CD00CC9274 /* qwerty_keyboard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AF5E45241E6CA7CE00CC9274 /* Build configuration list for PBXNativeTarget "colemak_keyboard" */;
+			buildConfigurationList = AF5E45241E6CA7CE00CC9274 /* Build configuration list for PBXNativeTarget "qwerty_keyboard" */;
 			buildPhases = (
 				AF5E450E1E6CA7CD00CC9274 /* Sources */,
 				AF5E450F1E6CA7CD00CC9274 /* Frameworks */,
@@ -79,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = colemak_keyboard;
+			name = qwerty_keyboard;
 			productName = colemak_keyboard;
-			productReference = AF5E45121E6CA7CD00CC9274 /* colemak_keyboard.app */;
+			productReference = AF5E45121E6CA7CD00CC9274 /* qwerty_keyboard.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -101,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AF5E450D1E6CA7CD00CC9274 /* Build configuration list for PBXProject "colemak_keyboard" */;
+			buildConfigurationList = AF5E450D1E6CA7CD00CC9274 /* Build configuration list for PBXProject "qwerty_keyboard" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -114,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AF5E45111E6CA7CD00CC9274 /* colemak_keyboard */,
+				AF5E45111E6CA7CD00CC9274 /* qwerty_keyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -264,7 +265,7 @@
 				DEVELOPMENT_TEAM = UJWD7B9P9D;
 				INFOPLIST_FILE = colemak_keyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "geeyarbabu-gmail.com";
+				PRODUCT_BUNDLE_IDENTIFIER = geeyarbabu.Ucd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -277,7 +278,7 @@
 				DEVELOPMENT_TEAM = UJWD7B9P9D;
 				INFOPLIST_FILE = colemak_keyboard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "geeyarbabu-gmail.com";
+				PRODUCT_BUNDLE_IDENTIFIER = geeyarbabu.Ucd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -286,7 +287,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AF5E450D1E6CA7CD00CC9274 /* Build configuration list for PBXProject "colemak_keyboard" */ = {
+		AF5E450D1E6CA7CD00CC9274 /* Build configuration list for PBXProject "qwerty_keyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF5E45221E6CA7CD00CC9274 /* Debug */,
@@ -295,7 +296,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AF5E45241E6CA7CE00CC9274 /* Build configuration list for PBXNativeTarget "colemak_keyboard" */ = {
+		AF5E45241E6CA7CE00CC9274 /* Build configuration list for PBXNativeTarget "qwerty_keyboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AF5E45251E6CA7CE00CC9274 /* Debug */,

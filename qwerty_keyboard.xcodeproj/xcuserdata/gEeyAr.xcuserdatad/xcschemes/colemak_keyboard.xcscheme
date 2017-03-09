@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "AF5E45111E6CA7CD00CC9274"
-               BuildableName = "colemak_keyboard.app"
-               BlueprintName = "colemak_keyboard"
-               ReferencedContainer = "container:colemak_keyboard.xcodeproj">
+               BuildableName = "qwerty_keyboard.app"
+               BlueprintName = "qwerty_keyboard"
+               ReferencedContainer = "container:qwerty_keyboard.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF5E45111E6CA7CD00CC9274"
-            BuildableName = "colemak_keyboard.app"
-            BlueprintName = "colemak_keyboard"
-            ReferencedContainer = "container:colemak_keyboard.xcodeproj">
+            BuildableName = "qwerty_keyboard.app"
+            BlueprintName = "qwerty_keyboard"
+            ReferencedContainer = "container:qwerty_keyboard.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF5E45111E6CA7CD00CC9274"
-            BuildableName = "colemak_keyboard.app"
-            BlueprintName = "colemak_keyboard"
-            ReferencedContainer = "container:colemak_keyboard.xcodeproj">
+            BuildableName = "qwerty_keyboard.app"
+            BlueprintName = "qwerty_keyboard"
+            ReferencedContainer = "container:qwerty_keyboard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "AF5E45111E6CA7CD00CC9274"
-            BuildableName = "colemak_keyboard.app"
-            BlueprintName = "colemak_keyboard"
-            ReferencedContainer = "container:colemak_keyboard.xcodeproj">
+            BuildableName = "qwerty_keyboard.app"
+            BlueprintName = "qwerty_keyboard"
+            ReferencedContainer = "container:qwerty_keyboard.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

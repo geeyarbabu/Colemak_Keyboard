@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     public static var counter = 0
     public static var error_Counter = 0
     
-    let words_array = ["STEWARDESSES", "PAZAZZES", "KRZYWINSKI",]
+    let words_array = ["COMPUTER","UNIVERSITY","COFFEE", "STEWARDESSES", "PAZAZZES","KRZYWINSKI","OBSTINANCE","CHIAROSCURIST","QUETZALCOATL","FRAEXPIALDOCIOUS","HNOIEWGBUQW","FLOCCINAUCINIHI","RAGINYLLEUC"]
     var entered_array = [String]()
     public static var entered_Words:String = ""
      public static var given_Words:String = ""
@@ -29,7 +29,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var entered_Label: UILabel!
     @IBOutlet weak var given: UILabel!
     var timer = Timer()
-    var seconds = 30
+    var seconds = 100
     
     @IBOutlet weak var results_view: UIView!
     @IBOutlet weak var timer_label: UILabel!
